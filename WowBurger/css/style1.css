@@ -1,0 +1,22 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-align: center;
+}
+body{
+    background-image: url("/images/wowburger1.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.BurgBtn{
+    float: middle;
+    padding: 50px;
+}
+.BurgBtn:hover{
+    transform:scale(1.01);
+    opacity: 99%;
+}
+

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wow Burger</title>
+    <link rel="stylesheet" href="/css/style2.css">
+    <script src="/js/index.js"></script>
+</head>
+<body>
+    <form class="formBoxs">
+        <b>
+            <label for="name">Username:</label>
+            <input type="text" id="name" name="name"><br><br>
+            
+            <label for="password">Password:</label>
+            <input type="password" id="pw" name="pw" minlength="9" maxlength ="9"><br><br>
+            
+            <label for="burger">No fuss Burger:</label>
+            <select for="burger">
+                <option value="7.00" id="b1">6oz Large</option>
+                <option value="9.00" id="b2">10oz Extra-Large</option>
+                <option value="17.50" id="b3">16oz Supersize</option>
+            </select><br><br>
+
+            <label for="number" id="quantity">All items:</label>
+            <input type="number" min="0" oninput="validity.valid||(value='');" id="num" name="num"><br><br>
+
+            <label id="price">Price:</label><br><br>
+        </b>
+
+        <button id="subBtn">Complete Order</button>
+    </form>
+</body>
+</html>
